@@ -5,7 +5,6 @@ int main()
 {
 
 
-    int x ;
-    x=x+5;
-    cout<<x;
+    int x = 15;
+    cout<< x;
 }
