@@ -13,8 +13,13 @@ int sum(int arr[], int size)
 
 int subtract(int arr[], int size)
 {
+<<<<<<< HEAD
     int result = arr[0];
     for (int i = 1; i < size; i++)
+=======
+    int result = 0;
+    for (int i = 0; i < size; ++i)
+>>>>>>> a427edd8872712a7a31228d85159b6a332712430
     {
         result -= arr[i];
     }
@@ -59,6 +64,7 @@ int modulas(int x, int y)
 int main()
 {
     int size;
+<<<<<<< HEAD
     int num;
 
     cout << "please select operation you want to do (+ , - , / , % , ^)" << '\n';
@@ -127,4 +133,11 @@ int main()
         break;
     }
 
+=======
+    
+    cout << "Enter the number of values: ";
+    cin >> size;
+
+    int* arr = new int[size];
+>>>>>>> a427edd8872712a7a31228d85159b6a332712430
 }
