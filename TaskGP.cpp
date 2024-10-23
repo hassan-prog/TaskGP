@@ -72,9 +72,7 @@ int main()
     int size;
     int num;
     char cont;
-    //cout << "please select operation you want to do (+ , - , / , % , ^, ^^)" << '\n';
     char operation;
-    //cin >> operation;
 
     do
     {
@@ -155,5 +153,4 @@ int main()
         cin >> cont;
     } while (cont != 'q');
     return 0;
-
 }
