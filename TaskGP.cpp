@@ -1,11 +1,4 @@
-#include <iostream>
-using namespace std;
-
-int main()
-{
-
-
-    int x ;
-    x=x+5;
-    cout<<x;
-}
+fake 
+fake fake 
+hjhjjl
+lkklklkl
